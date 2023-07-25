@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Intro -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/intro"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#434343"
+
+    android:clipToOutline="true"
+    app:layout_anchorGravity="center|center_horizontal|center_vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/complete_logo"
+        android:layout_width="400px"
+        android:layout_height="300px"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/so9_3wass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <!-- First half: so9 -->
+            <ImageView
+                android:id="@+id/so9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/so9" />
+
+            <!-- Second half: a3wass -->
+            <ImageView
+                android:id="@+id/awass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/a3wass" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/main_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/so9_3wass">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/main_logo" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rectangle_2"
+        android:layout_width="273dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="642dp">
+
+        <Button
+            android:id="@+id/get_started"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text="تسوق الان"
+            android:textColor="#434343"
+            android:textSize="27sp"
+            app:backgroundTint="#ffffff" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
