@@ -1,4 +1,4 @@
-package com.marrok.so9app;
+package com.marrok.so9app.ui.Activities;
 
 import static com.marrok.so9app.R.*;
 
@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.marrok.so9app.R;
 
 public class DashboardActivity extends AppCompatActivity {
 

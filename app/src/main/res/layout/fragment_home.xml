@@ -6,7 +6,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     app:layout_anchorGravity="center|center_horizontal|center_vertical"
-    tools:context=".HomeFragment"
+    tools:context=".ui.Activities.HomeFragment"
     android:background="@color/silver">
 
 
