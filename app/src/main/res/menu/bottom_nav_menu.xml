@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user_outline_foreground"
+        android:title="حسابي" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/ic_new_post_outline_foreground"
+        android:title="إظافة إعلان" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="الرئيسية"
+
+        />
+
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/my_chats"
+        android:title="دردشاتي" />
+    <item
+        android:id="@+id/navigation_ads"
+        android:icon="@drawable/my_ads"
+        android:title="إعلاناتي" />
+</menu>
